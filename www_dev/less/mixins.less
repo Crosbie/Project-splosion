@@ -1,0 +1,25 @@
+/*
+ * Mixins for variations on app fonts
+ */
+.font1 (@size){
+    font: normal @size @font1;
+}
+.font1-bold (@size){
+    font: bold @size @font1;
+}
+
+.font2 (@size){
+    font: normal @size @font2;
+}
+.font2-bold (@size){
+    font: bold @size @font2;
+}
+
+/*
+ * Utility mixins
+ */
+.border-radius (@size){
+    -webkit-border-radius: @size;
+    -moz-border-radius: @size;
+    border-radius: @size;
+}
