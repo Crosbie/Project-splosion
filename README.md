@@ -20,6 +20,8 @@ what happens when you merge the cells
 
 
 ## Local Development
+
+**Only ever edit www_dev folder contents, all the contents in www are then auto generated**
 ### Prerequisites (*from within project root*)
 - Install Bower `npm install -g bower`
 - Install Browserify `npm install browserify`
